@@ -24,7 +24,9 @@ source-repository head
 
 library
   exposed-modules:
+      Language.Sandwich.AST
       Language.Sandwich.Parser
+      Language.Sandwich.Type
       Lib
   other-modules:
       Paths_sandwich
